@@ -1,14 +1,13 @@
 package AbstractFactory.MarketingPackage;
 
-import AbstractFactory.FactoryMarketing.BBAdverticingFactory;
-import AbstractFactory.FactoryMarketing.MarketingFactory;
-import AbstractFactory.FactoryMarketing.MediaAdverticingFactory;
-import AbstractFactory.FactoryMarketing.PrintingAdverticingFactory;
-import AbstractFactory.MarketingPackage.Advertising;
+import AbstractFactory.MarketingPackage.FactoryMarketing.BBAdverticingFactory;
+import AbstractFactory.MarketingPackage.FactoryMarketing.MarketingFactory;
+import AbstractFactory.MarketingPackage.FactoryMarketing.MediaAdverticingFactory;
+import AbstractFactory.MarketingPackage.FactoryMarketing.PrintingAdverticingFactory;
 
 public class Marketing {
     public static void main(String[] args) throws Exception {
-        MarketingFactory marketingFactory = putType("ff");
+        MarketingFactory marketingFactory = putType("media");
         Advertising advertising = marketingFactory.create();
         advertising.write();
     }

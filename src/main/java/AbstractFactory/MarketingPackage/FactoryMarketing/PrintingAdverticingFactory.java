@@ -1,4 +1,4 @@
-package AbstractFactory.FactoryMarketing;
+package AbstractFactory.MarketingPackage.FactoryMarketing;
 
 import AbstractFactory.MarketingPackage.Advertising;
 import AbstractFactory.MarketingPackage.PrintingFlyers;

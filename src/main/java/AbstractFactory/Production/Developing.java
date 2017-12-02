@@ -1,5 +1,5 @@
 package AbstractFactory.Production;
 
 public interface Developing {
-    public void createProduction();
+    public void produce();
 }
